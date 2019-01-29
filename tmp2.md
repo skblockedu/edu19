@@ -17,12 +17,11 @@ cd ~/fabric-samples/first-network
 nano configtx.yaml   # Organization, Orderer, Channel, Profile (TwoOrgsOrdererGenesis, TwoOrgsChannel)
 
 # 1.3. check docker image/container/network
+```
 docker image ls      # orderer, peer, couchdb, tools(CLI)
-
 docker container ls  # nothing (not yet)
-
 docker network ls    # default network (bridge, host, null)
-
+```
 
 #####################################################
 # 2.1. cryto. 파일 생성, genesis.block, channel.tx 파일 생성
