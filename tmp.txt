@@ -63,8 +63,13 @@ env | grep CORE
 #CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 #CORE_PEER_ID=cli
 #CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+
+# channel view
 peer channel list      # Channels peers has joined: mychannel
 
+# chaincode view
+peer chaincode list
+peer chaincode --installed
 
 
 #####################################################
