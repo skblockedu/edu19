@@ -84,7 +84,6 @@ docker ps -a
 
 ### view couchdb database 
 http://localhost:5984/_utils   # couchdb0, new database ( mychannel_, mychannel_lscc, mychannel_mycc )
-                               # view 
                                
 http://localhost:6984/_utils   # couchdb1
 
@@ -93,23 +92,26 @@ http://localhost:7984/_utils   # couchdb2
 http://localhost:8984/_utils   # couchdb3
 
 ### view ledger file
+docker exec -it peer0.org1.example.com bash
+
+ls /var/hyperledger/production/ledgersData/chains/chains/mychannel/  # channel 별로 ledger file이 
+
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 
 
-
-
-
-
-#####################################################
 # 3.2. 
 ./start3_2.sh up -s couchdb
 
 
 
-#####################################################
-# 추가로 할일 
-# 1. tree 설치
+# Appendix. 추가로 할일 
+## 1. tree 설치
 sudo apt install tree 
 
-# 2. checkVer.sh 설치
-# edu home 폴더에 설치할 것 
+## 2. checkVer.sh 설치
+edu home 폴더에 설치할 것 
+
+## 3. chaincode 소스 보여주기
+example02/go
+
+## 4. 
