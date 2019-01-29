@@ -1,11 +1,20 @@
-# 작업 폴더로 이동
+#####################################################
+# 0.1. 설치 프로그램 확인
+~/checkVer.sh
+
+#####################################################
+# 1.1. 작업 폴더로 이동
 cd ~/fabric-samples/first-network
 
-# check docker image/container/network
+# 1.2. 설정파일 확인
+nano configtx.yaml   # Organization, Orderer, Channel, Profile (TwoOrgsOrdererGenesis, TwoOrgsChannel)
+
+# 1.3. check docker image/container/network
 docker image ls      # orderer, peer, couchdb, tools(CLI)
 docker container ls  # nothing (not yet)
 docker network ls    # default network (bridge, host, null)
 
+#####################################################
 # 2.1. cryto. 파일 생성, genesis.block, channel.tx 파일 생성
 ./start2_1.sh generate
 
@@ -14,10 +23,25 @@ tree crypto-config/peerOrganizations/org1.example.com/peers  # org1내 peer별 c
 
 ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확인
 
-# 2.2. 
+#####################################################
+# 2.2. start docker container
+./start2_2.sh up -s couchdb
 
+# check docker image/container/network
+docker image ls      # orderer, peer, couchdb, tools(CLI)
+docker container ls  # 1 orderer, 4 peers, 4 couchdb, 1 cli
+docker network ls    # new network (net_byfn)
+
+# view couchdb database
+http://localhost:5984/_utils   # couchdb0
+http://localhost:6984/_utils   # couchdb1
+http://localhost:7984/_utils   # couchdb2
+http://localhost:8984/_utils   # couchdb3
 
 
 # 추가로 할일 
 # 1. tree 설치
 sudo apt install tree 
+
+# 2. checkVer.sh 설치
+# edu home 폴더에 설치할 것 
