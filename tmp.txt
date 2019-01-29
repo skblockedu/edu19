@@ -1,0 +1,23 @@
+# 작업 폴더로 이동
+cd ~/fabric-samples/first-network
+
+# check docker image/container/network
+docker image ls      # orderer, peer, couchdb, tools(CLI)
+docker container ls  # nothing (not yet)
+docker network ls    # default network (bridge, host, null)
+
+# 2.1. cryto. 파일 생성, genesis.block, channel.tx 파일 생성
+./start2_1.sh generate
+
+tree -L 2 crypto-config     # orderer, org1, org2 구조 확인
+tree crypto-config/peerOrganizations/org1.example.com/peers  # org1내 peer별 cert., keystore, tls 생성 확인
+
+ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확인
+
+# 2.2. 
+
+
+
+# 추가로 할일 
+# 1. tree 설치
+sudo apt install tree 
