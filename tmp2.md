@@ -18,7 +18,9 @@ nano configtx.yaml   # Organization, Orderer, Channel, Profile (TwoOrgsOrdererGe
 
 # 1.3. check docker image/container/network
 docker image ls      # orderer, peer, couchdb, tools(CLI)
+
 docker container ls  # nothing (not yet)
+
 docker network ls    # default network (bridge, host, null)
 
 
