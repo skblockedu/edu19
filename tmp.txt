@@ -54,9 +54,8 @@ http://localhost:8984/_utils   # couchdb3
 # check channel
 docker exec -it cli bash
 env | grep CORE
-```
-#CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
-#CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
 #CORE_PEER_LOCALMSPID=Org1MSP
 #CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
 #CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
@@ -64,13 +63,41 @@ env | grep CORE
 #CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 #CORE_PEER_ID=cli
 #CORE_PEER_ADDRESS=peer0.org1.example.com:7051
-```
+
 # channel view
 peer channel list      # Channels peers has joined: mychannel
 
 # chaincode view
 peer chaincode list
 peer chaincode --installed
+
+
+#####################################################
+# 3.1. chaincode install & instantiate
+./start3_1.sh up -s couchdb
+
+# check container
+docker ps -a
+
+# view couchdb database 
+http://localhost:5984/_utils   # couchdb0, new database ( mychannel_, mychannel_lscc, mychannel_mycc )
+                               # view 
+http://localhost:6984/_utils   # couchdb1
+http://localhost:7984/_utils   # couchdb2
+http://localhost:8984/_utils   # couchdb3
+
+# view ledger file
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
+
+
+
+
+
+#####################################################
+# 3.2. 
+./start3_2.sh up -s couchdb
+
 
 
 #####################################################
