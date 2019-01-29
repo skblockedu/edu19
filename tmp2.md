@@ -96,11 +96,11 @@ docker exec -it peer0.org1.example.com bash
 
 ls /var/hyperledger/production/ledgersData/chains/chains/mychannel/  # channel 별로 ledger file이 
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 
-
-# 3.2. 
+# 3.2. Chaincode query & invoke
 ./start3_2.sh up -s couchdb
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `보강필요`
 
 
 
