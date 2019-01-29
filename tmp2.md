@@ -85,8 +85,11 @@ docker ps -a
 ### view couchdb database 
 http://localhost:5984/_utils   # couchdb0, new database ( mychannel_, mychannel_lscc, mychannel_mycc )
                                # view 
+                               
 http://localhost:6984/_utils   # couchdb1
+
 http://localhost:7984/_utils   # couchdb2
+
 http://localhost:8984/_utils   # couchdb3
 
 ### view ledger file
