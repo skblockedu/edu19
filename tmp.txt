@@ -1,9 +1,16 @@
 #####################################################
-# 0.1. 설치 프로그램 확인
+# 0.1. SSH 연결
+ssh edu@127.0.0.1 -p 2222   # using PuTTY, pwd=skcc
+ 
+# 0.2. 설치 프로그램 확인
 ~/checkVer.sh
 
+# 0.3 nano 실습
+nano checkVer.sh   # 종료: Ctrl+X
+
+
 #####################################################
-# 1.1. 작업 폴더로 이동
+# 1.1. 작업 폴더(FIRST BLOCKCHAIN NETWORK)로 이동
 cd ~/fabric-samples/first-network
 
 # 1.2. 설정파일 확인
@@ -14,6 +21,7 @@ docker image ls      # orderer, peer, couchdb, tools(CLI)
 docker container ls  # nothing (not yet)
 docker network ls    # default network (bridge, host, null)
 
+
 #####################################################
 # 2.1. cryto. 파일 생성, genesis.block, channel.tx 파일 생성
 ./start2_1.sh generate
@@ -23,8 +31,9 @@ tree crypto-config/peerOrganizations/org1.example.com/peers  # org1내 peer별 c
 
 ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확인
 
+
 #####################################################
-# 2.2. start docker container
+# 2.2. start docker container (orderer, peer, couchdb and so on)
 ./start2_2.sh up -s couchdb
 
 # check docker image/container/network
@@ -38,7 +47,27 @@ http://localhost:6984/_utils   # couchdb1
 http://localhost:7984/_utils   # couchdb2
 http://localhost:8984/_utils   # couchdb3
 
+#####################################################
+# 2.3. 'mychannel' 생성, peer별 'mychannel' 조인, Anchor peer 업데이트
+./start2_3.sh up -s couchdb
 
+# check channel
+docker exec -it cli bash
+env | grep CORE
+#CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+#CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+#CORE_PEER_LOCALMSPID=Org1MSP
+#CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+#CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+#CORE_PEER_TLS_ENABLED=true
+#CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+#CORE_PEER_ID=cli
+#CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+peer channel list      # Channels peers has joined: mychannel
+
+
+
+#####################################################
 # 추가로 할일 
 # 1. tree 설치
 sudo apt install tree 
