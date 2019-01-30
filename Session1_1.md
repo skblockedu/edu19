@@ -33,4 +33,4 @@ Putty 세션 정보 설정
 ![Putty 터미널 설정](https://github.com/skblockedu/edu19/blob/master/images/Putty%20setting.png)
 
 
-[Sesstion1_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
+["1.2. EDU VM(Virtual Machine) 둘러보기" >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
