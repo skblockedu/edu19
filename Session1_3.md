@@ -32,4 +32,4 @@ format:
 ```
 - 실습: https://www.json2yaml.com
 
-[Session2_1 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session2_1.md)
+["2.1. cryto. & configuration 파일 생성" >>](https://github.com/skblockedu/edu19/blob/master/Session2_1.md)
