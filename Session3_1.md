@@ -6,6 +6,7 @@ docker container ls
 
 ## 설치
 ```
+cd ~/fabric-samples/first-network/
 ./start3_1.sh up -s couchdb
 ```
 
@@ -14,6 +15,7 @@ docker container ls
 docker container ls
 docker container ls --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}'
 ```
+![containe ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_1.png)
 
 ## view couchdb database 
 ```
