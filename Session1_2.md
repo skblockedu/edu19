@@ -8,12 +8,12 @@
 - NPM(Node Package Manager)
 - Golang: 2009년 구글에서 개발한 프로그래밍 언어
 - Hypserleder Fabric 1.4.0 images
-```
+```shell
 docker image ls
 ```
 ![docker image ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_1.png)
 
-```
+```shell
 docker network ls
 ```
 ![docker netowork ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_2.png)
@@ -23,7 +23,7 @@ docker network ls
 - nano: Simple Text Editor
 
 ## nano 실습
-```
+```shell
 nano ~/fabric-samples/first-network/configtx.yaml
 ```
 - 종료: Ctrl + X
