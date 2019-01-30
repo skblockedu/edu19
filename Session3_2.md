@@ -1,11 +1,11 @@
 # 3.2. Chaincode query & invoke
-```
+```shell
 cd ~/fabric-samples/first-network/
 ./start3_2.sh up -s couchdb
 ```
 
 ## chaincode query
-```
+```shell
 docker exec -it cli /bin/bash
 peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
 peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","b"]}'
