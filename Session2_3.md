@@ -6,6 +6,9 @@ cd ~/fabric-samples/first-network/
 - peer channel create -o orderer.example.com:7050 -c mychannel -f ./channel-artifacts/channel.tx --tls true --cafile $ORDERER_CA   # mychannel.block 생성
 - peer channel join -b mychannel.block   # on each peers
 
+## CLI를 통한 Channel 생성 및 조인
+![](https://github.com/skblockedu/edu19/blob/master/images/cli2.png)
+
 ## view channel
 ```shell
 docker exec -it cli bash # -it은 Docker에게 컨테이너의 표준 입력에 연결된 pseudo-TTY를 할당하여 대화 형 bash 쉘을 컨테이너에 작성
