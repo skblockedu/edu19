@@ -27,4 +27,4 @@ Putty 세션 정보 설정
 ![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_8.png)
 
 
-[Sesstion2_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
+[Sesstion1_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
