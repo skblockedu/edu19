@@ -32,4 +32,4 @@ nano ~/fabric-samples/first-network/configtx.yaml
 ## 실습용 Hyperledgr Fabric Network
 ![network1](https://github.com/skblockedu/edu19/blob/master/images/network1.png)
 
-[Session1_3 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_3.md)
+["1.3. JSON, YAML 소개" 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_3.md)
