@@ -1,12 +1,12 @@
 # 1.2. EDU VM 둘러보기
 
 ## 설치 SW
-- Ubuntu
-- Docker & Docker-compose
-- Git
-- Node.js
+- Ubuntu: Linux OS
+- Docker & Docker-compose: Container Platform & Tool
+- Git: Version control client & server
+- Node.js: Javascript-based development language or platform 
 - NPM(Node Package Manager)
-- Golang
+- Golang: 2009년 구글에서 개발한 프로그래밍 언어
 - Hypserleder Fabric 1.4.0 images
 ```
 docker image ls
@@ -19,7 +19,7 @@ docker network ls
 ![docker netowork ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_2.png)
 
 
-- Couchdb
+- Couchdb: Document-based NoSQL database (hyperledger fabric의 state database)
 - nano: Simple Text Editor
 
 ## nano 실습
