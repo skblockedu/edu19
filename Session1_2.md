@@ -24,5 +24,7 @@ docker network ls
 
 ## nano 실습
 ```
-nana checkVer.sh
+nano ~/fabric-samples/first-network/configtx.yaml
 ```
+- 종료: Ctrl + X
+- Line 이동: Ctrl + _  (underbar)
