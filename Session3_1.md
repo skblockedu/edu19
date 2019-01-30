@@ -12,7 +12,7 @@ cd ~/fabric-samples/first-network/
 
 ## check container after
 ```
-docker container ls
+docker container ls .  # 결과는 나오나 너무 길게 보임
 docker container ls --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}'
 ```
 ![containe ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_1.png)
