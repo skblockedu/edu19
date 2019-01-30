@@ -34,5 +34,5 @@ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","b"]}'
 ![query result](https://github.com/skblockedu/edu19/blob/master/images/query2.png)
 
 ## chaincode source
-- [source link](https://github.com/skblockedu/edu19/blob/master/src/chaincode_example02.go)
+- [chaincode_example02.go](https://github.com/skblockedu/edu19/blob/master/src/chaincode_example02.go)
 
