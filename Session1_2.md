@@ -30,4 +30,4 @@ nano ~/fabric-samples/first-network/configtx.yaml
 - Line 이동: Ctrl + _  (underbar)
 
 ## 실습용 Hyperledgr Fabric Network
-![network1] 
+![network1](https://github.com/skblockedu/edu19/blob/master/images/network1.png)
