@@ -1,23 +1,25 @@
 # 2.3. Channel 생성 및 조인
 ```
+cd ~/fabric-samples/first-network/
 ./start2_3.sh up -s couchdb
 ```
 
-## check channel
+## view channel
 ```shell
 docker exec -it cli bash
 env | grep CORE
 ```
+* Result
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_1.png)
 
-## check channel
-```
+
+```shell
 peer channel list
 ```
 * Channels peers has joined: mychannel
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_2.png)
 
-### chaincode view
+## view chaincode
 ```
 peer chaincode list
 ```
@@ -27,4 +29,5 @@ peer chaincode list
 ```
 peer chaincode list --installed
 ```
+* Result
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_4.png)
