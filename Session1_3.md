@@ -7,10 +7,10 @@
 {
     "format": {
         "type": "json",
-        "members": {
+        "members": [
             {"id": "0001", "name": "Bob", "age": 32},
             {"id": "0002", "name": "Alice", "age": 28}
-        }
+        ]
     }
 }
 ```
