@@ -42,4 +42,4 @@ http://localhost:8984/_utils
 * couchdb0 
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_5.png)
 
-[Session2_3 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session2_3.md)
+["3.1. Chaincode 설치" >>](https://github.com/skblockedu/edu19/blob/master/Session2_3.md)
