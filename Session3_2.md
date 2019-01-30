@@ -11,7 +11,7 @@ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","b"]}'
 
 ## chaincode invoke
 ```
-cd ~/aaaaa
+cd ~/fabric-samples/first-network
 ./start3_2.sh up -s couchdb
 ```
 
