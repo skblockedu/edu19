@@ -13,7 +13,6 @@ cd ~/fabric-samples/first-network
 docker image ls
 ```
 * orderer, peer, couchdb, tools(CLI)
-
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_1.png)
 
 ```
