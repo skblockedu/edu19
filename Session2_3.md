@@ -3,8 +3,8 @@
 cd ~/fabric-samples/first-network/
 ./start2_3.sh up -s couchdb
 ```
-- peer channel create -o orderer.example.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/channel.tx --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA
-- peer channel join -b $CHANNEL_NAME.block (on each peers)
+- peer channel create -o orderer.example.com:7050 -c mychannel -f ./channel-artifacts/channel.tx --tls $CORE_PEER_TLS_ENABLED --cafile $ORDERER_CA   # mychannel.block 생성
+- peer channel join -b mychannel.block # on each peers
 
 ## view channel
 ```shell
