@@ -1,6 +1,6 @@
 # 1.1. 사전 준비 사항
 ## 실습 환경
-- ![edu env](https://github.com/skblockedu/edu19/blob/master/images/eduenv.png)
+![edu env](https://github.com/skblockedu/edu19/blob/master/images/eduenv.png)
 
 ## Putty(SSH & Telnet Client) 설치
 - Putty 설치: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
