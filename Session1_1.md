@@ -29,6 +29,7 @@
   - ID: edu
   - PWD: skcc
 - Putty 세션 정보 설정
+
   ![Putty 터미널 설정](https://github.com/skblockedu/edu19/blob/master/images/Putty%20setting.png)
 
 
