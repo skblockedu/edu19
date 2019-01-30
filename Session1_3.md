@@ -31,3 +31,5 @@ format:
       age: 28
 ```
 - 실습: https://www.json2yaml.com
+
+[Session2_1 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session2_1.md)
