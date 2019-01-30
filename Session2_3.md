@@ -20,5 +20,11 @@ peer channel list
 ### chaincode view
 ```
 peer chaincode list
-peer chaincode --installed
 ```
+* Error
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_3.png)
+
+```
+peer chaincode list --installed
+```
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_4.png)
