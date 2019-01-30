@@ -11,10 +11,12 @@ cd ~/fabric-samples/first-network/
 ```
 
 ## check container after
+- 실행
 ```
 docker container ls .  # 결과는 나오나 너무 길게 보임
 docker container ls --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}'
 ```
+- 결과
 ![containe ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_1.png)
 
 ## view couchdb database 
