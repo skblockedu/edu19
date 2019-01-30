@@ -21,7 +21,7 @@ peer channel list
 * Channels peers has joined: mychannel
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_2.png)
 
-## view chaincode
+## view chaincode (현재 chaincode는 설치되지 않은 상태임)
 ```
 peer chaincode list
 ```
