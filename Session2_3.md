@@ -1,5 +1,5 @@
 # 2.3. Channel 생성 및 조인
-```
+```shell
 cd ~/fabric-samples/first-network/
 ./start2_3.sh up -s couchdb
 ```
@@ -8,7 +8,7 @@ cd ~/fabric-samples/first-network/
 
 ## view channel
 ```shell
-docker exec -it cli bash
+docker exec -it cli bash # -it은 Docker에게 컨테이너의 표준 입력에 연결된 pseudo-TTY를 할당하여 대화 형 bash 쉘을 컨테이너에 작성
 env | grep CORE
 ```
 * Result
