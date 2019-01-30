@@ -12,7 +12,7 @@ env | grep CORE
 
 ## check channel
 ```
-peer channel list      # Channels peers has joined: mychannel
+peer channel list
 ```
 * Channels peers has joined: mychannel
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_3_2.png)
