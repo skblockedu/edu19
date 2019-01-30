@@ -21,7 +21,7 @@
 - ID: edu
 - PWD: skcc
 
-* Putty 세션 정보 설정
+Putty 세션 정보 설정
 
 ![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_8.png)
 
