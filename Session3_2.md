@@ -1,8 +1,4 @@
 # 3.2. Chaincode query & invoke
-```shell
-cd ~/fabric-samples/first-network/
-./start3_2.sh up -s couchdb
-```
 
 ## chaincode query
 ```shell
@@ -37,5 +33,6 @@ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","b"]}'
 ```
 ![query result](https://github.com/skblockedu/edu19/blob/master/images/query2.png)
 
-
+## chaincode source
+- [source link](https://github.com/skblockedu/edu19/blob/master/src/chaincode_example02.go)
 
