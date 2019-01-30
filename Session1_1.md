@@ -11,7 +11,11 @@
    
 
 ## EDU image 다운로드
-  * 구글 드라이브 다운로드 링크_1 : https://drive.google.com/open?id=1ZLMb4PDzGhXZzdpyThQhnhiZBtrChx1y
+  * 구글 드라이브 다운로드 링크
+    - 805호 
+     1. https://drive.google.com/open?id=1ZLMb4PDzGhXZzdpyThQhnhiZBtrChx1y
+    - 806호
+     1. https://drive.google.com/open?id=1ghElmxY8CGGZj0sgJm5B4GyP2qsX1pER
 
 ## VirtualBox로 EDU image import(불러오기)
 - VirtualBox 상단메뉴 >> 파일 >> 가상시스템 가져오기 >> EDU image(EDU.ova) 선택
