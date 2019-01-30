@@ -20,4 +20,3 @@ ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확
 - genesis.block: Orderer, Org, Policy 정보
 - channel.tx: TwoOrgChannel (Org1 & Org2)
 - Org1MSPAnhcor.tx Org2MSPAnchor.tx
-
