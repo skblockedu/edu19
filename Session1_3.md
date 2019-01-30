@@ -1,7 +1,7 @@
 # 1.3. JSON, YAML 소개
 
-## B. JSON(JavaScript Object Notation)
-- 장점:- Lightweight data-interchange format
+## JSON(JavaScript Object Notation)
+- 장점: Lightweight data-interchange format
 - 구조: A collection of name/value paris. An ordered list of values
 ```
 {
@@ -15,7 +15,7 @@
 }
 ```
 
-## C. YAML(YAML Ain't markup language)
+## YAML(YAML Ain't markup language)
 - 장점
 - 구조: Indentation-based markup language
 ```
