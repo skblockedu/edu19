@@ -28,4 +28,4 @@ ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확
 - Org1MSPAnhcor.tx Org2MSPAnchor.tx
 ![network2](https://github.com/skblockedu/edu19/blob/master/images/network2.png)
 
-[Session2_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session2_2.md)
+["2.2. Container 구동" >>](https://github.com/skblockedu/edu19/blob/master/Session2_2.md)
