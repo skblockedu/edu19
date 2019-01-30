@@ -1,6 +1,7 @@
 # 2.1. cryto. & configuration 파일 생성
 
 ```
+cd ~/fabric-samples/first-network
 ./start2_1.sh generate
 ```
 
