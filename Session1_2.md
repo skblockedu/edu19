@@ -16,7 +16,7 @@ docker image ls
 ```
 docker network ls
 ```
-![docker netowork ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_1.png)
+![docker netowork ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_2.png)
 
 
 - Couchdb
