@@ -1,8 +1,10 @@
 # 3.1. Chaincode 설치
-## check container before
+## view container before
 ```
 docker container ls
 ```
+![container ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_2.png)
+
 
 ## 설치
 ```
@@ -10,14 +12,13 @@ cd ~/fabric-samples/first-network/
 ./start3_1.sh up -s couchdb
 ```
 
-## check container after
-- 실행
+## view container after
 ```
 docker container ls .  # 결과는 나오나 너무 길게 보임
 docker container ls --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}'
 ```
-- 결과
 ![containe ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_1.png)
+
 
 ## view couchdb database 
 ```
