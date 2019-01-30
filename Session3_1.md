@@ -10,6 +10,7 @@ docker container ls
 ## check container after
 ```
 docker container ls
+docker container ls --format 'table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}'
 ```
 
 ## view couchdb database 
