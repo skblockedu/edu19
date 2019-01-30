@@ -6,6 +6,7 @@
 - Putty 설치: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
    * 64bit **putty-64bit-0.70-installer.msi** 다운로드 & 설치
    * Putty 실행
+   ![](https://github.com/skblockedu/edu19/blob/master/images/Putty%20run.png)
    
 
 ## EDU image 다운로드
@@ -24,7 +25,7 @@
 
 Putty 세션 정보 설정
 
-![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_8.png)
+![Putty 터미널 설정](https://github.com/skblockedu/edu19/blob/master/images/Putty%20setting.png)
 
 
 [Sesstion1_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
