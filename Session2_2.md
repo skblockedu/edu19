@@ -1,28 +1,29 @@
 # 2.2. Container 구동
-```
+```shell
 cd ~/fabric-samples/first-network
 ./start2_2.sh up -s couchdb
+
 (docker-compose -f docker-compose-cli.yaml -f docker-compose-couch.yaml up -d)
 ```
 
 ## docker-compose configuration file 
 
 ## check docker image
-```
+```shell
 docker image ls
 ```
 * orderer, peer, couchdb, tools(CLI)
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_1.png)
 
 ## check docker container
-```
+```shell
 docker container ls
 ```
 * 1 orderer, 4 peers, 4 couchdb, 1 cli
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_2.png)
 
 ## check docker network
-```
+```shell
 docker network ls
 ```
 * new network (net_byfn)
