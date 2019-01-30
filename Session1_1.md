@@ -2,7 +2,7 @@
 ## 실습 환경
 - Putty ==> EDU VM | Hyperledger fabric containers
 
-## Putty(Telnet Client) 설치
+## Putty(SSH & Telnet Client) 설치
 - Putty 설치: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
    * 64bit **putty-64bit-0.70-installer.msi** 다운로드 & 설치
    * Putty 실행
