@@ -19,6 +19,7 @@ tree crypto-config/peerOrganizations/org1.example.com/peers  # org1내 peer별 c
 
 
 ## Configuation 파일 확인
+```
 [configen generate crytogen.yaml]
 ls channel-artifacts       # genesis.block, channel.tx, *MSPAnchor.tx 생성 확인
 ```
