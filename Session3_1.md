@@ -6,7 +6,7 @@ docker container ls
 ![container ls](https://github.com/skblockedu/edu19/blob/master/images/Session3_1_2.png)
 
 
-## 설치
+## chaincode 설치
 ```
 cd ~/fabric-samples/first-network/
 ./start3_1.sh up -s couchdb
