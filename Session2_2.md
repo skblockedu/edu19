@@ -45,4 +45,8 @@ docker network ls
 * couchdb0 
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_5.png)
 
+## CLI (Command Line Interface)
+* chaincode를 쉽게 테스트하고 fabric 상태를 확인할 수 있는 기능을 제공하는 인터페이스
+![](https://github.com/skblockedu/edu19/blob/master/images/cli1.png)
+
 ["2.3. Channel 생성 및 조인" >>](https://github.com/skblockedu/edu19/blob/master/Session2_3.md)
