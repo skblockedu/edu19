@@ -1,6 +1,6 @@
 # 1.1. 사전 준비 사항
 ## 실습 환경
-![edu env](https://github.com/skblockedu/edu19/blob/master/images/eduenv.png)
+- ![edu env](https://github.com/skblockedu/edu19/blob/master/images/eduenv.png)
 
 ## Putty(SSH & Telnet Client) 설치
 - Putty 설치: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
@@ -29,7 +29,7 @@
   - ID: edu
   - PWD: skcc
 - Putty 세션 정보 설정
-![Putty 터미널 설정](https://github.com/skblockedu/edu19/blob/master/images/Putty%20setting.png)
+  - ![Putty 터미널 설정](https://github.com/skblockedu/edu19/blob/master/images/Putty%20setting.png)
 
 
 ["1.2. EDU VM(Virtual Machine) 둘러보기" >>](https://github.com/skblockedu/edu19/blob/master/Session1_2.md)
