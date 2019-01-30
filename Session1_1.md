@@ -6,6 +6,7 @@
 - Putty 설치: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
    * 64bit **putty-64bit-0.70-installer.msi** 다운로드 & 설치
    * Putty 실행
+   
    ![](https://github.com/skblockedu/edu19/blob/master/images/Putty%20run.png)
    
 
