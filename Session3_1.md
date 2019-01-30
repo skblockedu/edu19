@@ -5,8 +5,10 @@ docker container ls
 ```
 
 ## 설치
+```
 ./start3_1.sh up -s couchdb
-``
+```
+
 ## check container after
 ```
 docker container ls
