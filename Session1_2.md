@@ -10,8 +10,15 @@
 - Hypserleder Fabric 1.4.0 images
 ```
 docker image ls
+```
+![docker image ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_1.png)
+
+```
 docker network ls
 ```
+![docker netowork ls](https://github.com/skblockedu/edu19/blob/master/images/Session2_1.png)
+
+
 - Couchdb
 - nano: Simple Text Editor
 
