@@ -9,4 +9,5 @@
   - [2.3. Channel 생성 및 조인](https://github.com/skblockedu/edu19/blob/master/Session2_3.md)
   - [3.1. Chaincode 설치](https://github.com/skblockedu/edu19/blob/master/Session3_1.md)
   - [3.2. Chaincode query & invoke](https://github.com/skblockedu/edu19/blob/master/Session3_2.md)
-- Virtual box image(EDU.ova): https://drive.google.com/open?id=1ZLMb4PDzGhXZzdpyThQhnhiZBtrChx1y 
+- Virtual box image(EDU.ova)
+  - https://drive.google.com/open?id=1ZLMb4PDzGhXZzdpyThQhnhiZBtrChx1y 
