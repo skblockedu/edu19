@@ -10,6 +10,9 @@ peer chaincode query -C mychannel -n mycc -c '{"Args":["query","b"]}'
 
 
 ## chaincode invoke
+```
+cd ~/aaaaa
+./start3_2.sh up -s couchdb
 ```shell
 docker exec -it cli /bin/bash
 peer chaincode invoke 
