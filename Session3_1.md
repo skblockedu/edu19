@@ -43,4 +43,4 @@ docker exec -it peer0.org1.example.com bash
 ls /var/hyperledger/production/ledgersData/chains/chains/mychannel/  # channel 별로 ledger file이 
 ```
 
-[Session3_2 이동 >>](https://github.com/skblockedu/edu19/blob/master/Session3_2.md)
+[3.2. Chaincode query & invoke >>](https://github.com/skblockedu/edu19/blob/master/Session3_2.md)
