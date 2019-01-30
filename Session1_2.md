@@ -1,4 +1,4 @@
-# 1.2. EDU VM 둘러보기
+# 1.2. EDU VM(Virtual Machine) 둘러보기
 
 ## 설치 SW
 - Ubuntu: Linux OS
