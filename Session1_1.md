@@ -22,5 +22,5 @@
 - Port: 2222
 - ID: edu
 - PWD: skcc
-![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_7.png)
+![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_8.png)
 
