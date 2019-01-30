@@ -31,10 +31,10 @@ docker network ls
 
 ## check couchdb database
 ```
-http://localhost:5984/_utils   # couchdb0
-http://localhost:6984/_utils   # couchdb1
-http://localhost:7984/_utils   # couchdb2
-http://localhost:8984/_utils   # couchdb3
+http://localhost:5984/_utils 
+http://localhost:6984/_utils
+http://localhost:7984/_utils
+http://localhost:8984/_utils
 ```
 * Port fowarding (VirtualBox >> 설정 >> 네트워크 >> 고급)
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_4.png)
