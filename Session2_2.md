@@ -7,20 +7,21 @@ cd ~/fabric-samples/first-network
 
 ## docker-compose configuration file 
 
-## check docker image/container/network
-
+## check docker image
 ```
 docker image ls
 ```
 * orderer, peer, couchdb, tools(CLI)
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_1.png)
 
+## check docker container
 ```
 docker container ls
 ```
 * 1 orderer, 4 peers, 4 couchdb, 1 cli
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_2.png)
 
+## check docker network
 ```
 docker network ls
 ```
