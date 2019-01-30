@@ -31,3 +31,6 @@ http://localhost:6984/_utils   # couchdb1
 http://localhost:7984/_utils   # couchdb2
 http://localhost:8984/_utils   # couchdb3
 ```
+
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_4.png)
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_5.png)
