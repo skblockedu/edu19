@@ -7,8 +7,10 @@
 
 ## EDU image 다운로드
 - FTP 연결: 향후 접속 URL 추가할 것
+
 ### FTP 연결 안되는 경우
-- 구글 드라이브 다운로드 링크 : https://drive.google.com/file/d/17uaFp5yQfUqG0GVZKUAmqB1_8NMNf9U6/view?usp=sharing
+- 구글 드라이브 다운로드 링크 : 
+  https://drive.google.com/file/d/17uaFp5yQfUqG0GVZKUAmqB1_8NMNf9U6/view?usp=sharing
 
 ## VirtualBox로 EDU image import(불러오기)
 - VirtualBox 상단메뉴 >> 파일 >> 가상시스템 가져오기 >> EDU image(EDU.ova) 선택
@@ -20,3 +22,5 @@
 - Port: 2222
 - ID: edu
 - PWD: skcc
+![Putty 터미널 설정](https://github.com/aimmvp/BlockChain/blob/master/BCEdu/img/edu1_7.png)
+
