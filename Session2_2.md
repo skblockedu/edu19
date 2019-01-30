@@ -1,8 +1,11 @@
 # 2.2. Container 구동
 ```
+cd ~/fabric-samples/first-network
 ./start2_2.sh up -s couchdb
-docker-compose -f docker-compose-cli.yaml -f docker-compose-couch.yaml up -d
+(docker-compose -f docker-compose-cli.yaml -f docker-compose-couch.yaml up -d)
 ```
+
+## docker-compose configuration file 
 
 ## check docker image/container/network
 ```
