@@ -8,11 +8,21 @@ cd ~/fabric-samples/first-network
 ## docker-compose configuration file 
 
 ## check docker image/container/network
+
 ```
 docker image ls      # orderer, peer, couchdb, tools(CLI)
+```
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_1.png)
+
+```
 docker container ls  # 1 orderer, 4 peers, 4 couchdb, 1 cli
+```
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_2.png)
+
+```
 docker network ls    # new network (net_byfn)
 ```
+![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_3.png)
 
 ## check couchdb database
 ```
