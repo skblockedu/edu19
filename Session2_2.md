@@ -22,6 +22,9 @@ docker container ls
 * 1 orderer, 4 peers, 4 couchdb, 1 cli
 ![](https://github.com/skblockedu/edu19/blob/master/images/Session2_2_2.png)
 
+* container list
+![](https://github.com/skblockedu/edu19/blob/master/images/network3.png)
+
 ## check docker network
 ```shell
 docker network ls
