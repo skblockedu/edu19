@@ -16,7 +16,7 @@
 ```
 
 ## YAML(YAML Ain't markup language)
-- 장점
+- 특징: a human-readable data serialization language
 - 구조: Indentation-based markup language
 ```
 ___
