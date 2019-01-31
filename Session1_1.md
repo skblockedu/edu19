@@ -14,6 +14,7 @@
   * 구글 드라이브 다운로드 링크
     - 805호 
      1. https://drive.google.com/open?id=1ZLMb4PDzGhXZzdpyThQhnhiZBtrChx1y
+     2. https://drive.google.com/open?id=11OgbXDwXHqW1MgTF9j_yGncHZleoBmaz
     - 806호
      1. https://drive.google.com/open?id=1ghElmxY8CGGZj0sgJm5B4GyP2qsX1pER
 
